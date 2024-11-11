@@ -5,9 +5,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Apply the Danfo font */
+.danfo-text {
+  font-family: "Danfo", serif;
+  font-weight: 400; /* Default weight for Danfo */
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-variation-settings: "ELSH" 0;
 }
 
-code {
+  
+}
+
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
